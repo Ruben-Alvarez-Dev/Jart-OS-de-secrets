@@ -1,0 +1,21 @@
+# Jart-OS de secrets — .gitignore
+
+# Vault local (contiene secretos reales)
+$HOME/.hermes/
+
+# Archivos temporales
+*.tmp
+/tmp/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
